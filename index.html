@@ -70,7 +70,8 @@
     <div class="col-12">
       Möchten Sie das Testergebnis an die Corona-Warn-App übermitteln?
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="CWA_NO">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="CWA_NO"
+          required>
         <label class="form-check-label" for="flexRadioDefault1">
           KEINE DATEN AN DIE CORONA-WARN-APP ÜBERMITTELN
         </label>
@@ -157,42 +158,42 @@
     </div>
   </div>
 
-    <div class="col-12 p-3 mt-5 bg-secondary bg-opacity-25">
-      <!-- corona-warn-app/cwa-app-ios is licensed under the Apache License 2.0 -->
-      <!-- Ich verweise hier auf das Code-Repository "https://github.com/corona-warn-app/cwa-app-ios" von Corona-Warn-App, dem die folgenden Punkte entnommen oder angelehnt sind. -->
-      <h3>Legen Sie Ihre persönlichen Daten als QR-Code ab, um die Registrierung an der Teststelle zu beschleunigen</h3>
-      <p>Mit Ihrem eigenen Schnelltest-Profil müssen Sie Ihre persönlichen daten nicht bei jedem neuen Schnelltest
-        erneut
-        ausfüllen</p>
-        <h4>Datenschutz und Datensicherheit</h4>
-        <ul class="list-group">
-          <li class="list-group-item">Das Erzeugen eines Schnelltest-Profils über diese Webseite und dessen Verwendung
-            sind freiwillig.</li>
-          <li class="list-group-item">Die App wandelt die Daten, die Sie für Ihr Schnelltest-Profil eingeben, in Ihren
-            persönlichen QR-Code um. Im QR-Code sind dann alle eingegebenen Daten enthalten.</li>
-          <li class="list-group-item">In der Teststelle können Sie den QR-Code Ihres Schnelltest-Profils scannen lassen,
-            um der Teststelle Ihre Daten schnell und sicher bereitzustellen. Die Teststelle benötigt Ihre Daten zur
-            Durchführung des Tests. Sie können die Daten aber auch ohne die QR-Code bereitstellen. Sie entscheiden
-            selbst,
-            auf welche Weise Sie Ihre Daten der Teststelle übermitteln wollen.</li>
-          <li class="list-group-item">Auf Ihr persönliches Schnelltest-Profil haben zunächst nur Sie Zugriff. Nur wenn
-            Sie
-            den QR-Code des Schnelltest-Profils anderen Personen zeigen, können diese Zugriff auf die persönlichen Daten
-            Ihres Schnelltest-Profils erhalten. Ein Zugriff auf andere Daten erfolgt dabei nicht.
-          </li>
-          <li class="list-group-item">
-            Sie haben jederzeit die Möglichkeit, Ihr Schnelltest-Profil wieder zu löschen. Dazu müssen Sie den QR-Code
-            entfernen, sofern Sie ihn gespeichert haben. Kopien des QR-Codes werden durch diese Webseite oder den
-            Teststellenbetreiber nicht erzeugt.
-          </li>
-          <li class="list-group-item">
-            Der QR-Code enthält Ihre persönlichen Angaben. Stellen Sie Ihren persönlichen QR-Code niemandem zur
-            Verfügung,
-            wenn Sie nicht wollen, dass die Daten ausgelesen werden. Wir empfehlen Ihren persönlichen QR-Code nicht zu
-            veröffentlichen und nicht per E-Mail zu versenden.
-          </li>
-        </ul>
-    </div>
+  <div class="col-12 p-3 mt-5 bg-secondary bg-opacity-25">
+    <!-- corona-warn-app/cwa-app-ios is licensed under the Apache License 2.0 -->
+    <!-- Ich verweise hier auf das Code-Repository "https://github.com/corona-warn-app/cwa-app-ios" von Corona-Warn-App, dem die folgenden Punkte entnommen oder angelehnt sind. -->
+    <h3>Legen Sie Ihre persönlichen Daten als QR-Code ab, um die Registrierung an der Teststelle zu beschleunigen</h3>
+    <p>Mit Ihrem eigenen Schnelltest-Profil müssen Sie Ihre persönlichen Daten nicht bei jedem neuen Schnelltest
+      erneut
+      ausfüllen</p>
+    <h4>Datenschutz und Datensicherheit</h4>
+    <ul class="list-group">
+      <li class="list-group-item">Das Erzeugen eines Schnelltest-Profils über diese Webseite und dessen Verwendung
+        sind freiwillig.</li>
+      <li class="list-group-item">Die App wandelt die Daten, die Sie für Ihr Schnelltest-Profil eingeben, in Ihren
+        persönlichen QR-Code um. Im QR-Code sind dann alle eingegebenen Daten enthalten.</li>
+      <li class="list-group-item">In der Teststelle können Sie den QR-Code Ihres Schnelltest-Profils scannen lassen,
+        um der Teststelle Ihre Daten schnell und sicher bereitzustellen. Die Teststelle benötigt Ihre Daten zur
+        Durchführung des Tests. Sie können die Daten aber auch ohne die QR-Code bereitstellen. Sie entscheiden
+        selbst,
+        auf welche Weise Sie Ihre Daten der Teststelle übermitteln wollen.</li>
+      <li class="list-group-item">Auf Ihr persönliches Schnelltest-Profil haben zunächst nur Sie Zugriff. Nur wenn
+        Sie
+        den QR-Code des Schnelltest-Profils anderen Personen zeigen, können diese Zugriff auf die persönlichen Daten
+        Ihres Schnelltest-Profils erhalten. Ein Zugriff auf andere Daten erfolgt dabei nicht.
+      </li>
+      <li class="list-group-item">
+        Sie haben jederzeit die Möglichkeit, Ihr Schnelltest-Profil wieder zu löschen. Dazu müssen Sie den QR-Code
+        entfernen, sofern Sie ihn gespeichert haben. Kopien des QR-Codes werden durch diese Webseite oder den
+        Teststellenbetreiber nicht erzeugt.
+      </li>
+      <li class="list-group-item">
+        Der QR-Code enthält Ihre persönlichen Angaben. Stellen Sie Ihren persönlichen QR-Code niemandem zur
+        Verfügung,
+        wenn Sie nicht wollen, dass die Daten ausgelesen werden. Wir empfehlen Ihren persönlichen QR-Code nicht zu
+        veröffentlichen und nicht per E-Mail zu versenden.
+      </li>
+    </ul>
+  </div>
 
   <div class="m-3 row">
     <p class="">
@@ -230,7 +231,10 @@
     const f = document.getElementById("frm-pd");
     f.addEventListener('submit', handleFormSubmit);
 
-    var qrcode = new QRCode(document.getElementById("qrcode"), "Willkommen!");
+    var qrcode = new QRCode(document.getElementById("qrcode"), {
+      text: "Willkommen!",
+      correctLevel: QRCode.CorrectLevel.H
+    });
     qrcode.makeCode("Willkommen!");
 
   </script>
